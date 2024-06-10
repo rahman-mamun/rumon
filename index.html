@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Mamun Ur Rahman - IT Administrator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-image: url('images/canva.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .linkedin-logo {
+            width: 20px;
+            height: 20px;
+        }
+
+        .profile-pic {
+            border: 2px solid white;
+        }
+
+        .btn-photo {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .btn-photo img {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+    <header class="bg-gray-800 text-red-400 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-red-300">Home</a></li>
+                    <li><a href="#about" class="hover:text-red-300">About</a></li>
+                    <li><a href="#skills" class="hover:text-red-300">Skills</a></li>
+                    <li><a href="#contact" class="hover:text-red-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero h-screen flex items-center justify-center text-center">
+        <div>
+            <div class="profile-container">
+                <img src="images/my image.png" alt="Md Mamun Ur Rahman" class="profile-pic w-40 h-40 rounded-full mx-auto mb-4">
+                <a href="#contact" class="btn-photo bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">
+                    <img src="images/my image.png" alt="Md Mamun Ur Rahman"> Get in Touch
+                </a>
+            </div>
+            <h1 class="name text-4xl font-bold mt-6">Md Mamun Ur Rahman</h1>
+            <p class="text-xl mt-4">IT Administrator based in Helsinki, Finland</p>
+        </div>
+    </section>
+
+    <section id="about" class="about py-20 bg-gray-800">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+            <p class="text-center mx-auto w-3/4">With seven years of experience in IT administration, I excel in managing IT infrastructure, delivering top-tier technical support, and ensuring robust system security. Passionate about technology, I continuously seek to enhance my skills and stay abreast of the latest industry trends. My proactive approach and dedication to efficiency and innovation make me a valuable asset for any forward-thinking organization.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills py-20 bg-gray-700">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Skills</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="skill-item p-6 bg-gray-800 rounded-lg text-center transition transform hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-4">System Administration</h3>
+                    <p>Expertise in managing and maintaining IT systems, including server management, operating systems, and troubleshooting.</p>
+                </div>
+                <div class="skill-item p-6 bg-gray-800 rounded-lg text-center transition transform hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-4">Network Management</h3>
+                    <p>Proficient in configuring and managing network infrastructure, including routers, switches, and firewalls.</p>
+                </div>
+                <div class="skill-item p-6 bg-gray-800 rounded-lg text-center transition transform hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-4">Cloud Computing</h3>
+                    <p>Experienced in deploying and managing cloud services, including AWS, Azure, and Google Cloud Platform.</p>
+                </div>
+                <div class="skill-item p-6 bg-gray-800 rounded-lg text-center transition transform hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-4">Cybersecurity</h3>
+                    <p>Skilled in implementing security measures to protect IT systems, including firewalls, antivirus software, and security protocols.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact py-20 bg-gray-800">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+            <div class="text-center">
+                <p class="mb-4">If you would like to get in touch, please email me at: <a href="mailto:rumon1@gmail.com" class="text-blue-500">rumon1@gmail.com</a></p>
+                <p class="mb-4">Phone: 0458649233</p>
+                <p class="mb-4">Address: Kartanonvoudintie 7 R 114, 00410 Helsinki</p>
+                <a href="https://www.linkedin.com/in/rahmanmamun/" class="linkedin-btn inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition transform hover:scale-105">
+                    <img src="images/linkdin.png" alt="LinkedIn" class="linkedin-logo mr-2"> Connect on LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-red-400 text-center py-4">
+        <div class="container mx-auto">
+            <p>&copy; 2024 Md Mamun Ur Rahman. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // You can add any JavaScript functionality here if needed
+    </script>
+</body>
+
+</html>
